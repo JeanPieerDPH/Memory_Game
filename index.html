@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Memory Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+
+<body class="container">
+    <h1 id="resultado">Memory Game</h1>
+    <div class="row mb-4" style="height:100px">
+        <div class="col">
+            <button id="0_0"  onclick="darleClick(0,0)" type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="0_1"  onclick="darleClick(0,1)"  type="button" style="height: 100%; width:100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="0_2"  onclick="darleClick(0,2)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="0_3"  onclick="darleClick(0,3)" type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+    </div>
+
+    <div class="row mb-4" style="height:100px">
+        <div class="col">
+            <button id="1_0"  onclick="darleClick(1,0)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="1_1"  onclick="darleClick(1,1)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="1_2"  onclick="darleClick(1,2)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="1_3"  onclick="darleClick(1,3)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+    </div>
+
+    <div class="row mb-4" style="height:100px">
+        <div class="col">
+            <button id="2_0"  onclick="darleClick(2,0)"  onclick="darleClick(2,0)" type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="2_1"  onclick="darleClick(2,1)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="2_2"  onclick="darleClick(2,2)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="2_3"  onclick="darleClick(2,3)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+    </div>
+
+    <div class="row mb-4" style="height:100px">
+        <div class="col">
+            <button id="3_0"  onclick="darleClick(3,0)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="3_1"  onclick="darleClick(3,1)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="3_2"  onclick="darleClick(3,2)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="3_3"  onclick="darleClick(3,3)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+    </div>
+
+    <div class="row mb-4" style="height:100px">
+        <div class="col">
+            <button id="4_0"  onclick="darleClick(4,0)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="4_1"  onclick="darleClick(4,1)" type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="4_2"  onclick="darleClick(4,2)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="4_3"  onclick="darleClick(4,3)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+    </div>
+
+    <div class="row mb-4" style="height:100px">
+        <div class="col">
+            <button id="5_0"  onclick="darleClick(5,0)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="5_1"  onclick="darleClick(5,1)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="5_2"  onclick="darleClick(5,2)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+        <div class="col">
+            <button id="5_3"  onclick="darleClick(5,3)"  type="button" style="height: 100%; width: 100%; background-color: orange; border: orange;">&#129409</button>
+        </div>
+    </div>
+    <script src="./memoria.js"></script>
+</body>
+
+
+
+
+
+
+
+</html>
